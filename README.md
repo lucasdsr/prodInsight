@@ -1,64 +1,36 @@
-# frontend-challenge
-Desafio Técnico: Dashboard de Produtos
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Descrição do Projeto
-Você foi encarregado de criar um dashboard de produtos para uma loja online. O objetivo é construir uma aplicação frontend que exiba uma lista de produtos, permita a busca e filtragem, e mostre detalhes de um produto selecionado. A aplicação deve ser desenvolvida utilizando React, Next.js e TypeScript, e deve consumir uma API externa para obter os dados dos produtos.
+## Getting Started
 
-## Requisitos Técnicos
-Configuração do Projeto (5 pontos)
-Configure um projeto Next.js com TypeScript.
-Utilize Git para versionamento e siga o fluxo GitFlow.
+First, run the development server:
 
-## Listagem de Produtos (10 pontos)
-Implemente uma página que exiba uma lista de produtos obtidos de uma API externa.
-Cada produto deve mostrar pelo menos o nome, preço e imagem.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-## Busca e Filtragem (10 pontos)
-Adicione uma funcionalidade de busca para filtrar produtos por nome.
-Implemente filtros por categoria e faixa de preço.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Detalhes do Produto (10 pontos)
-Crie uma página de detalhes que exiba informações adicionais sobre um produto selecionado.
-Utilize a renderização no lado do servidor (SSR) para carregar os detalhes do produto.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## Gerenciamento de Estado (10 pontos)
-Utilize Context API ou outra solução de gerenciamento de estado para compartilhar o estado de busca e filtros entre componentes.
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Integração com API (10 pontos)
-Faça requisições à API para obter a lista de produtos e detalhes de um produto.
-Implemente tratamento de erros para requisições falhas.
+## Learn More
 
-## Otimização de Desempenho (10 pontos)
-Implemente otimizações de desempenho, como memoização de componentes e carregamento assíncrono de imagens.
+To learn more about Next.js, take a look at the following resources:
 
-## Testes (5 pontos)
-Escreva testes unitários para componentes principais utilizando uma biblioteca de testes como Jest.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## Documentação (5 pontos)
-Inclua um arquivo README detalhado com instruções de instalação, execução e uso da aplicação.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-# Pontuação Total: 70 pontos
+## Deploy on Vercel
 
-# Instruções de Submissão
-Faça um fork deste repositório e trabalhe em uma branch seguindo o fluxo GitFlow.
-Após concluir o desafio, abra um Pull Request para a branch `main` do seu fork.
-Inclua no Pull Request uma breve descrição das funcionalidades implementadas e qualquer consideração adicional que julgar relevante.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-## Considerações Finais
-O design da aplicação é livre, mas deve ser funcional e responsivo.
-Utilize boas práticas de desenvolvimento, como componentes reutilizáveis e código limpo.
-O tempo estimado para completar o desafio é de 4 a 6 horas.
-
-## Opções de APIs abertas para utilização:
-
-## Fake Store API
-Descrição: Uma API REST que simula uma loja online com produtos fictícios.
-Endpoint: `https://fakestoreapi.com/products`
-Documentação: [Fake Store API Docs](https://fakestoreapi.com/docs)
-
-## DummyJSON
-Descrição: Fornece dados fictícios para produtos, usuários, postagens, etc.
-Endpoint: `https://dummyjson.com/products`
-Documentação: [DummyJSON Procuts API Docs](https://dummyjson.com/docs/products)
-
-## Este desafio foi projetado para avaliar suas habilidades técnicas e sua capacidade de resolver problemas de forma eficiente. Boa sorte!
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
