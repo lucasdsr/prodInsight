@@ -1,0 +1,1 @@
+export const toMoney = (price: string | number) => `R$ ${parseFloat(price.toString()).toFixed(2).replace('.', ',')}`
